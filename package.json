@@ -1,0 +1,28 @@
+{
+	"name": "serjrd-theme",
+	"displayName": "serjrd-theme",
+	"description": "",
+	"publisher": "serjrd",
+	"repository": "https://github.com/serjrd/vscode-serjrd-theme",
+	"version": "0.1.1",
+	"engines": {
+		"vscode": "^1.44.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "serjrd-theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/serjrd-theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "08b30075-8876-4740-b392-daf60c1b21ca",
+		"publisherId": "7dbb485c-696a-40c1-876a-ff3f53843daa",
+		"publisherDisplayName": "serjrd"
+	}
+}
