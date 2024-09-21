@@ -27,13 +27,13 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#e6e0db"
+				"foreground": "#f8fa83"
 			}
 		},
 		{
-			"name": "Variables assignment",
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				"variable.assignment"
+				"variable.parameter"
 			],
 			"settings": {
 				"foreground": "#f8fa83"
@@ -48,6 +48,103 @@
 				"foreground": "#f8fa83"
 			}
 		},
+		// {
+		// 	"name": "Block Level Variables",
+		// 	"scope": [
+		// 		"meta.block variable.other"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#f8fa83"
+		// 	}
+		// },
+		{
+			"name": "Other Variable, String Link",
+			"scope": [
+				"support.other.variable",
+				"string.other.link"
+			],
+			"settings": {
+				"foreground": "#f8fa83"
+			}
+		},
+
+		{
+			"name": "variable.other.property",
+			"scope": [
+				"variable.other.object",
+				"meta.objectliteral"
+			],
+			"settings": {
+				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"name": "Object element",
+			"scope": [
+				"meta.object.member",
+				"variable.other.object.property"
+			],
+			"settings": {
+				"foreground": "#d4b449"
+			}
+		},
+		{
+			"name": "Object element nested 1",
+			"scope": [
+				"meta.object.member meta.objectliteral meta.object.member",
+			],
+			"settings": {
+				"foreground": "#bda041"
+			}
+		},
+		{
+			"name": "Object element nested 2",
+			"scope": [
+				"meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member",
+			],
+			"settings": {
+				"foreground": "#a08737"
+			}
+		},
+		{
+			"name": "Object element nested 3",
+			"scope": [
+				"meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member",
+			],
+			"settings": {
+				"foreground": "#8f7a35"
+			}
+		},
+
+    {
+      "name": "Variable Object",
+      "scope": [
+        "variable.other.constant",
+        "variable.other.global",
+        "variable.other.readwrite.class",
+        "variable.other.readwrite.instance",
+        "variable.other.readwrite.batchfile",
+        "variable.readwrite",
+        "variable.readwrite.other.block",
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "User-defined constant, Built-in constant, Import",
+      "scope": [
+        "constant.character",
+        "constant.other",
+				"constant.language",
+				"meta.import variable",
+				"meta.import meta.block variable"
+      ],
+      "settings": {
+        "foreground": "#93e7bd"
+      }
+    },
+
 		{
 			"name": "Colors",
 			"scope": [
@@ -123,25 +220,6 @@
 			}
 		},
 		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "Other Variable, String Link",
-			"scope": [
-				"support.other.variable",
-				"string.other.link"
-			],
-			"settings": {
-				"foreground": "#f07178"
-			}
-		},
-		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
@@ -149,10 +227,10 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
+				"constant.other",
 				"keyword.other"
 			],
 			"settings": {
-				// "foreground": "#F78C6C"
 				"foreground": "#78add2"
 			}
 		},
@@ -165,16 +243,7 @@
 				"foreground": "#e6e0db"
 			}
 		},
-		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": [
-				"variable.parameter"
-			],
-			"settings": {
-				// "foreground": "#F78C6C"
-				"foreground": "#f8fa83"
-			}
-		},
+
 		{
 			"name": "Null",
 			"scope": [
@@ -184,15 +253,6 @@
 			],
 			"settings": {
 				"foreground": "#ca729b"
-			}
-		},
-		{
-			"name": "variable.other.property",
-			"scope": [
-				"variable.other.object"
-			],
-			"settings": {
-				"foreground": "#FFCB6B"
 			}
 		},
 		{
